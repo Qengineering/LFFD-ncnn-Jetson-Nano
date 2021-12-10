@@ -21,6 +21,7 @@ Special made for a Jetson Nano see [Q-engineering deep learning examples](https:
 | LFFD| ncnn | 8 stage | 320x240 | 88.6 | **11.7 FPS** | 3.45 FPS |
 | LFFD| MNN | 5 stage | 320x240 | 88.6 | 2.6 FPS | 2.17 FPS |
 | LFFD| MNN | 8 stage | 320x240 | 88.6 | 1.8 FPS | 1.49 FPS |
+| CenterFace| ncnn | - | 320x240 | 93 | **16.5 FPS** | 6.8 FPS |
 
 ------------
 
@@ -28,6 +29,7 @@ Special made for a Jetson Nano see [Q-engineering deep learning examples](https:
 ### April 4 2021: Adapted for ncnn version 20210322 or later
 To run the application, you have to:
 - The Tencent ncnn framework installed. [Install ncnn](https://qengineering.eu/install-ncnn-on-jetson-nano.html) <br/>
+- OpenCV 64 bit installed. [Install OpenCV 4.5](https://qengineering.eu/install-opencv-4.5-on-jetson-nano.html) <br/>
 - Code::Blocks installed. (`$ sudo apt-get install codeblocks`)
 
 ------------
@@ -60,4 +62,10 @@ symbol_10_560_25L_8scales_v1_deploy.param
 To run the application load the project file FaceDetection_LFFD_ncnn.cbp in Code::Blocks.<br/> 
 Next, follow the instructions at [Hands-On](https://qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html#HandsOn).<br/><br/>
 ![output image]( https://qengineering.eu/images/selfie_result_8.jpg )
+
+------------
+
+[![paypal](https://qengineering.eu/images/TipJarSmall4.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CPZTM5BB3FCYL) 
+
+
 
